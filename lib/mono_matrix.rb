@@ -19,7 +19,6 @@ class MonoMatrix
     # B = 3 "\x06\xF9\xD5\x7B";
     # B = 4 "\x07\xF8\xD5\x7B";
 
-
     end_bytes = ["\xD5","\x7B"]
     if channel == "A"
       case input
@@ -45,8 +44,9 @@ class MonoMatrix
         bytes = ["\x07", "\xF8"] + end_bytes
       end
     end
-
+    puts channel +" to "+ input.to_s
     serialConnection = SerialPort.new @tty, 9600
+    bytes.each {|byte| serialConnection.write byte}
     bytes.each {|byte| serialConnection.write byte}
     serialConnection.close
   end
