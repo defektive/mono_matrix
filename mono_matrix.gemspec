@@ -2,8 +2,8 @@ Gem::Specification.new do |s|
   s.name        = 'mono_matrix'
   s.version     = '0.0.0'
   s.date        = '2014-11-26'
-  s.summary     = "For controlling a Monoprice 4x2 Switcher/Splitter"
-  s.description = "For controlling a Monoprice 4x2 Switcher/Splitter"
+  s.summary     = "Control monoprice 4x2 swithcer/splitter via serial"
+  s.description = "A simple way to control your Monoprice 4x2 HDX***"
   s.authors     = ["defektive"]
   s.email       = 'sirbradleyd@gmail.com'
   s.files       = ["lib/mono_matrix.rb"]
