@@ -1,3 +1,6 @@
+require 'semver'
+
 module MonoMatrix
-  VERSION = "0.0.1"
+
+  VERSION = SemVer.find.format "%M.%m.%p%s%d"
 end
