@@ -6,7 +6,9 @@ Gem::Specification.new do |s|
   s.version     = MonoMatrix::VERSION
   s.date        = '2014-11-26'
   s.summary     = "Control monoprice 4x2 swithcer/splitter via serial"
-  s.description = "A simple way to control your Monoprice 4x2 HDX***"
+  s.description = "A simple way to control your Monoprice 4x2 HDX***
+  Created for use in https://github.com/defektive/hdx-api
+  "
   s.authors     = ["defektive"]
   s.email       = 'sirbradleyd@gmail.com'
   s.homepage    = 'http://rubygems.org/gems/mono_matrix'
