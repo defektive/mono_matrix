@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_runtime_dependency "serialport", '~> 1.3', '>= 1.3.1'
+  s.add_runtime_dependency "thor", '~> 0.19'
   s.add_development_dependency "rake", '~>10.4'
   s.add_development_dependency "semver2", '~>3.4'
   s.add_development_dependency "rubygems-update", '~>2.4'

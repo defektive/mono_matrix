@@ -4,6 +4,8 @@
 A simple way to control your Monoprice HDX 4x2 Switcher/Splitter. Originally created for
 https://github.com/defektive/hdx-api
 
+[![Code Climate](https://codeclimate.com/github/defektive/mono_matrix/badges/gpa.svg)](https://codeclimate.com/github/defektive/mono_matrix)
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -22,7 +24,7 @@ $ gem install monoprice_matrix
 
 ```
 
-matrix = MonoMatrix.new "/dev/ttyUSB0"
+matrix = MonoMatrix::Switcher.new "/dev/ttyUSB0"
 
 # set output A to use input 1
 matrix.switch "A", 1
