@@ -1,10 +1,10 @@
 # mono_matrix
 [![Gem Version](https://badge.fury.io/rb/mono_matrix.svg)](http://badge.fury.io/rb/mono_matrix)
+[![Code Climate](https://codeclimate.com/github/defektive/mono_matrix/badges/gpa.svg)](https://codeclimate.com/github/defektive/mono_matrix)
 
 A simple way to control your Monoprice HDX 4x2 Switcher/Splitter. Originally created for
 https://github.com/defektive/hdx-api
 
-[![Code Climate](https://codeclimate.com/github/defektive/mono_matrix/badges/gpa.svg)](https://codeclimate.com/github/defektive/mono_matrix)
 
 ## Installation
 
